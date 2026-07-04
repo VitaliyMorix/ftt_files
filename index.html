@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Физика твёрдого тела - Содержание</title>
+    <title>Физика твёрдого тела - Оглавление</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -19,47 +19,54 @@
             border-bottom: 3px solid #3498db;
             padding-bottom: 10px;
         }
-        h2 {
-            color: #2980b9;
+        .chapter-list {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .chapter-item {
+            margin: 15px 0;
+            padding: 15px;
             background-color: #ecf0f1;
-            padding: 10px;
             border-left: 4px solid #3498db;
-            margin-top: 30px;
+            transition: all 0.3s;
         }
-        h3 {
-            color: #34495e;
-            margin-left: 20px;
-            margin-top: 15px;
-        }
-        ul {
-            list-style-type: none;
-            padding-left: 20px;
-        }
-        li {
-            margin: 8px 0;
+        .chapter-item:hover {
+            background-color: #d5dbdb;
+            transform: translateX(5px);
         }
         a {
             color: #2980b9;
             text-decoration: none;
-            transition: color 0.3s;
+            font-size: 1.1em;
+            font-weight: 600;
         }
         a:hover {
             color: #e74c3c;
             text-decoration: underline;
         }
-        .chapter {
-            background-color: #fff;
-            padding: 15px;
-            margin: 20px 0;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        .section-list {
+            list-style: none;
+            padding-left: 20px;
+            margin-top: 10px;
         }
-        .section {
-            margin-left: 30px;
+        .section-list li {
+            margin: 5px 0;
         }
-        .subsection {
-            margin-left: 50px;
+        .section-list a {
             font-size: 0.95em;
+            color: #7f8c8d;
+        }
+        .section-list a:hover {
+            color: #e74c3c;
+        }
+        h2 {
+            color: #2c3e50;
+            margin-top: 30px;
+            border-bottom: 2px solid #bdc3c7;
+            padding-bottom: 5px;
         }
     </style>
 </head>
@@ -67,475 +74,75 @@
     <h1>Физика твёрдого тела</h1>
     <p style="text-align: center; color: #7f8c8d;">Учебное пособие</p>
 
-    <div class="chapter">
-        <h2>ГЛАВА 1. ПРИНЦИПЫ СТРОЕНИЯ ТВЕРДЫХ ТЕЛ. ЭЛЕМЕНТЫ КРИСТАЛЛОГРАФИИ</h2>
-        <h3>1.1. Классификация конденсированных сред</h3>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part1_/part1_1_1.htm" target="_blank">1.1.1. Кристаллическое состояние и его классификация</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part1_/part1_1_2.htm" target="_blank">1.1.2. Аморфное состояние</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part1_/part1_1_3.htm" target="_blank">1.1.3. Жидкое состояние</a></li>
-            </ul>
+    <div class="chapter-list">
+        <h2>ОГЛАВЛЕНИЕ</h2>
+        
+        <div class="chapter-item">
+            <a href="Part1_.html">ГЛАВА 1. ПРИНЦИПЫ СТРОЕНИЯ ТВЕРДЫХ ТЕЛ. ЭЛЕМЕНТЫ КРИСТАЛЛОГРАФИИ</a>
         </div>
-        <h3>1.2. Кристаллическая решетка</h3>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part1_/part1_2_1.htm" target="_blank">1.2.1. Элементарная ячейка. Базис решетки</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part1_/part1_2_2.htm" target="_blank">1.2.2. Кристаллографические направления, плоскости и зоны</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part1_/part1_2_3.htm" target="_blank">1.2.3. Сингонии кристаллов</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part1_/part1_2_4.htm" target="_blank">1.2.4. Решетки Бравэ. Ячейка Вигнера-Зейтца</a></li>
-            </ul>
-        </div>
-        <h3>1.3. Симметрия кристаллов</h3>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part1_/part1_3_1.htm" target="_blank">1.3.1. Точечные операции симметрии</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part1_/part1_3_2.htm" target="_blank">1.3.2. Пространственные группы симметрии</a></li>
-            </ul>
-        </div>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part1_/part1_4.htm" target="_blank">1.4. Обратная решетка</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part1_/part1_5.htm" target="_blank">1.5. Принцип плотной упаковки атомов</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part1_/part1_6.htm" target="_blank">1.6. Примеры простых кристаллических структур</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part1_/part1_7.htm" target="_blank">1.7. Полиморфизм</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part1_/part1_8.htm" target="_blank">1.8. Жидкие кристаллы</a></li>
-            </ul>
-        </div>
-        <h3>1.9. Методы определения структуры твердых тел</h3>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part1_/part1_9_1.htm" target="_blank">1.9.1. Дифракционные методы</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part1_/part1_9_2.htm" target="_blank">1.9.2. Дифракция рентгеновских лучей в кристаллах</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part1_/part1_9_3.htm" target="_blank">1.9.3. Экспериментальные методы определения структуры кристаллов</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part1_/part1_9_4.htm" target="_blank">1.9.4. Методы определения структуры аморфных твердых тел</a></li>
-            </ul>
-        </div>
-    </div>
 
-    <div class="chapter">
-        <h2>ГЛАВА 2. ПРИРОДА И ТИПЫ МЕЖАТОМНЫХ СВЯЗЕЙ</h2>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part2/part2_1.htm" target="_blank">2.1. Химическая связь и валентность</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part2/part2_2.htm" target="_blank">2.2. Энергия связи</a></li>
-            </ul>
+        <div class="chapter-item">
+            <a href="Part2.html">ГЛАВА 2. ПРИРОДА И ТИПЫ МЕЖАТОМНЫХ СВЯЗЕЙ</a>
         </div>
-        <h3>2.3. Типы межатомных связей в твердых телах</h3>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part2/part2_3_1.htm" target="_blank">2.3.1. Ионная связь</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part2/part2_3_2.htm" target="_blank">2.3.2. Ковалентная связь</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part2/part2_3_3.htm" target="_blank">2.3.3. Металлическая связь</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part2/part2_3_4.htm" target="_blank">2.3.4. Ван-дер-Ваальсова связь. Молекулярные кристаллы</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part2/part2_3_5.htm" target="_blank">2.3.5. Водородная связь</a></li>
-            </ul>
-        </div>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part2/part2_4.htm" target="_blank">2.4. Структура веществ с ненаправленным взаимодействием</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part2/part2_5.htm" target="_blank">2.5. Представление об атомных орбиталях</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part2/part2_6.htm" target="_blank">2.6. Случай направленного взаимодействия. Структура веществ с ковалентными связями</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part2/part2_7.htm" target="_blank">2.7. Роль обменного взаимодействия в образовании кристаллов</a></li>
-            </ul>
-        </div>
-    </div>
 
-    <div class="chapter">
-        <h2>ГЛАВА 3. ДЕФЕКТЫ И ДИФФУЗИЯ В ТВЕРДЫХ ТЕЛАХ</h2>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part3/part3_1.htm" target="_blank">3.1. Классификация дефектов</a></li>
-            </ul>
-        </div>
-        <h3>3.2. Точечные дефекты</h3>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part3/part3_2_1.htm" target="_blank">3.2.1. Дефекты по Френкелю</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part3/part3_2_2.htm" target="_blank">3.2.2. Дефекты по Шоттки</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part3/part3_2_3.htm" target="_blank">3.2.3. Термодинамика точечных дефектов</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part3/part3_2_4.htm" target="_blank">3.2.4. Радиационные дефекты</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part3/part3_2_5.htm" target="_blank">3.2.5. Центры окраски</a></li>
-            </ul>
-        </div>
-        <h3>3.3. Дислокации</h3>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part3/part3_3_1.htm" target="_blank">3.3.1. Образование дислокаций в кристалле</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part3/part3_3_2.htm" target="_blank">3.3.2. Движение дислокаций</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part3/part3_3_3.htm" target="_blank">3.3.3. Дефекты упаковки</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part3/part3_3_4.htm" target="_blank">3.3.4. Границы зерен</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part3/part3_3_5.htm" target="_blank">3.3.5. Влияние дислокаций на свойства твердых тел и методы наблюдения дислокаций</a></li>
-            </ul>
-        </div>
-        <h3>3.4. Механизмы диффузии в твердых телах</h3>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part3/part3_4_1.htm" target="_blank">3.4.1. Диффузия в кристаллах</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part3/part3_4_2.htm" target="_blank">3.4.2. Законы Фика</a></li>
-            </ul>
-        </div>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part3/part3_5.htm" target="_blank">3.5. Твердые электролиты</a></li>
-            </ul>
-        </div>
-    </div>
+        <div class="chapter-item">
+            <a href="Part3.html">ГЛАВА 3. ДЕФЕКТЫ И ДИФФУЗИЯ В ТВЕРДЫХ ТЕЛАХ</a>
+                    </div>
 
-    <div class="chapter">
-        <h2>ГЛАВА 4. МЕХАНИЧЕСКИЕ СВОЙСТВА ТВЕРДЫХ ТЕЛ</h2>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part4/part4_1.htm" target="_blank">4.1. Тензоры напряжений и деформаций</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part4/part4_2.htm" target="_blank">4.2. Закон Гука для анизотропных твердых тел и энергия упругодеформированного тела</a></li>
-            </ul>
+        <div class="chapter-item">
+            <a href="Part4.html">ГЛАВА 4. МЕХАНИЧЕСКИЕ СВОЙСТВА ТВЕРДЫХ ТЕЛ</a>
+            
         </div>
-        <h3>4.3. Распространение акустических волн в кристаллах</h3>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part4/part4_3_1.htm" target="_blank">4.3.1. Поверхностные акустические волны</a></li>
-            </ul>
-        </div>
-        <h3>4.4. Пластические свойства кристаллов</h3>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part4/part4_4_1.htm" target="_blank">4.4.1. Деформация скольжением и двойникованием</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part4/part4_4_2.htm" target="_blank">4.4.2. Хрупкое разрушение</a></li>
-            </ul>
-        </div>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part4/part4_5.htm" target="_blank">4.5. Космический лифт</a></li>
-            </ul>
-        </div>
-    </div>
 
-    <div class="chapter">
-        <h2>ГЛАВА 5. ДИНАМИКА КРИСТАЛЛИЧЕСКОЙ РЕШЕТКИ</h2>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part5/part5_1.htm" target="_blank">5.1. Одномерные колебания однородной струны</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part5/part5_2.htm" target="_blank">5.2. Гармоническое приближение</a></li>
-            </ul>
+        <div class="chapter-item">
+            <a href="Part5.html">ГЛАВА 5. ДИНАМИКА КРИСТАЛЛИЧЕСКОЙ РЕШЕТКИ</a>
+            
         </div>
-        <h3>5.3. Колебания одномерной моноатомной цепочки атомов</h3>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part5/part5_3_1.htm" target="_blank">5.3.1. Зоны Бриллюэна</a></li>
-            </ul>
-        </div>
-        <h3>5.4. Колебательный спектр двухатомной одномерной цепочки. Акустическая и оптическая ветви колебаний</h3>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part5/part5_4_1.htm" target="_blank">5.4.1. Дисперсионные кривые для двухатомной одномерной цепочки</a></li>
-            </ul>
-        </div>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part5/part5_5.htm" target="_blank">5.5. Колебания атомов трехмерной решетки</a></li>
-            </ul>
-        </div>
-        <h3>5.6. Упругие волны смещений атомов. Фононы</h3>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part5/part5_6_1.htm" target="_blank">5.6.1. Фононные спектры в кристаллах</a></li>
-            </ul>
-        </div>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part5/part5_7.htm" target="_blank">5.7. Локальные фононные моды</a></li>
-            </ul>
-        </div>
-    </div>
 
-    <div class="chapter">
-        <h2>ГЛАВА 6. ТЕПЛОВЫЕ СВОЙСТВА ТВЕРДЫХ ТЕЛ</h2>
-        <h3>6.1. Теплоемкость твердых тел</h3>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part6/part6_1_1.htm" target="_blank">6.1.1. Закон Дюлонга и Пти</a></li>
-            </ul>
-        </div>
-        <h3>6.2. Энергия тепловых колебаний решетки</h3>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part6/part6_2_1.htm" target="_blank">6.2.1. Приближение Эйнштейна</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part6/part6_2_2.htm" target="_blank">6.2.2. Приближение Дебая</a></li>
-            </ul>
-        </div>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part6/part6_3.htm" target="_blank">6.3. Электронная теплоемкость и ее зависимость от температуры</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part6/part6_4.htm" target="_blank">6.4. Ангармонизм колебаний атомов и тепловое расширение</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part6/part6_5.htm" target="_blank">6.5. Теплопроводность твердых тел</a></li>
-            </ul>
-        </div>
-    </div>
+        <div class="chapter-item">
+            <a href="Part6.html">ГЛАВА 6. ТЕПЛОВЫЕ СВОЙСТВА ТВЕРДЫХ ТЕЛ</a>
+                    </div>
 
-    <div class="chapter">
-        <h2>ГЛАВА 7. МАГНИТНЫЕ СВОЙСТВА ТВЕРДЫХ ТЕЛ</h2>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part7/part7_1.htm" target="_blank">7.1. Классификация магнетиков</a></li>
-            </ul>
-        </div>
-        <h3>7.2. Влияние магнитного поля на орбитальное движение электрона. Диамагнетизм</h3>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part7/part7_2_1.htm" target="_blank">7.2.1. Диамагнетизм атомных остовов</a></li>
-            </ul>
-        </div>
-        <h3>7.3. Природа парамагнетизма</h3>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part7/part7_3_1.htm" target="_blank">7.3.1. Парамагнетизм электронов проводимости</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part7/part7_3_2.htm" target="_blank">7.3.2. Электронный парамагнитный резонанс</a></li>
-            </ul>
-        </div>
-        <h3>7.4. Ферромагнетизм</h3>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part7/part7_4_1.htm" target="_blank">7.4.1. Молекулярное поле Вейсса</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part7/part7_4_2.htm" target="_blank">7.4.2. Энергия обменного взаимодействия</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part7/part7_4_3.htm" target="_blank">7.4.3. Доменная структура ферромагнетиков</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part7/part7_4_4.htm" target="_blank">7.4.4. Антиферромагнетизм. Ферримагнетизм</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part7/part7_4_5.htm" target="_blank">7.4.5. Постоянные магниты</a></li>
-            </ul>
-        </div>
-    </div>
+        <div class="chapter-item">
+            <a href="Part7.html">ГЛАВА 7. МАГНИТНЫЕ СВОЙСТВА ТВЕРДЫХ ТЕЛ</a>
+                    </div>
 
-    <div class="chapter">
-        <h2>ГЛАВА 8. ДИЭЛЕКТРИЧЕСКИЕ СВОЙСТВА ТВЕРДЫХ ТЕЛ</h2>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part8/part8_1.htm" target="_blank">8.1. Основные характеристики диэлектриков</a></li>
-            </ul>
+        <div class="chapter-item">
+            <a href="Part8.html">ГЛАВА 8. ДИЭЛЕКТРИЧЕСКИЕ СВОЙСТВА ТВЕРДЫХ ТЕЛ</a>
+            
         </div>
-        <h3>8.2. Упругая поляризация</h3>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part8/part8_2_1.htm" target="_blank">8.2.1. Электронная упругая поляризация</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part8/part8_2_2.htm" target="_blank">8.2.2. Ионная упругая поляризация</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part8/part8_2_3.htm" target="_blank">8.2.3. Дипольная упругая поляризация</a></li>
-            </ul>
-        </div>
-        <h3>8.3. Тепловая (релаксационная) поляризация</h3>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part8/part8_3_1.htm" target="_blank">8.3.1. Электронная тепловая поляризация</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part8/part8_3_2.htm" target="_blank">8.3.2. Ионная тепловая поляризация</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part8/part8_3_3.htm" target="_blank">8.3.3. Дипольная тепловая поляризация</a></li>
-            </ul>
-        </div>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part8/part8_4.htm" target="_blank">8.4. Связь между поляризуемостью и диэлектрической проницаемостью</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part8/part8_5.htm" target="_blank">8.5. Электрострикция, пьезоэффект, пироэффект</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part8/part8_6.htm" target="_blank">8.6. Сегнетоэлектрики</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part8/part8_7.htm" target="_blank">8.7. Электреты</a></li>
-            </ul>
-        </div>
-    </div>
 
-    <div class="chapter">
-        <h2>ГЛАВА 9. ОСНОВЫ ЗОННОЙ ТЕОРИИ ТВЕРДОГО ТЕЛА</h2>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part9/part9_1.htm" target="_blank">9.1. Одноэлектронное приближение. Теорема Блоха</a></li>
-            </ul>
+        <div class="chapter-item">
+            <a href="Part9.html">ГЛАВА 9. ОСНОВЫ ЗОННОЙ ТЕОРИИ ТВЕРДОГО ТЕЛА</a>
+            
         </div>
-        <h3>9.2. Изменение состояния электронов при сближении атомов</h3>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part9/part9_2_1.htm" target="_blank">9.2.1. Энергетические зоны</a></li>
-            </ul>
-        </div>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part9/part9_3.htm" target="_blank">9.3. Приближение почти свободных электронов. Модель Кронига-Пенни</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part9/part9_4.htm" target="_blank">9.4. Структура энергетических зон</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part9/part9_5.htm" target="_blank">9.5. Движение электрона в периодическом поле кристалла под действием внешнего поля. Эффективная масса электрона</a></li>
-            </ul>
-        </div>
-        <h3>9.6. Примеси и примесные уровни</h3>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part9/part9_6_1.htm" target="_blank">9.6.1. Водородоподобная модель мелких уровней доноров и акцептор</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part9/part9_6_2.htm" target="_blank">9.6.2. Зонная структура неупорядоченных твердых тел</a></li>
-            </ul>
-        </div>
-    </div>
 
-    <div class="chapter">
-        <h2>ГЛАВА 10. ЭЛЕКТРИЧЕСКИЕ СВОЙСТВА ТВЕРДЫХ ТЕЛ</h2>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part10/part10.1.htm" target="_blank">10.1. Плотность квантовых состояний в разрешенных зонах. Классический 3D электронный газ</a></li>
-            </ul>
+        <div class="chapter-item">
+            <a href="Part10.html">ГЛАВА 10. ЭЛЕКТРИЧЕСКИЕ СВОЙСТВА ТВЕРДЫХ ТЕЛ</a>
+            
         </div>
-        <h3>10.2. Случай 2D и 1D и нульмерного электронного газа</h3>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part10/part10.2.1.htm" target="_blank">10.2.1. Плотность состояний в двумерной подзоне</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part10/part10.2.2.htm" target="_blank">10.2.2. Плотность состояний в одномерном и нульмерном случаях</a></li>
-            </ul>
-        </div>
-        <h3>10.3. Функции распределения электронов по энергиям</h3>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part10/part10.3.1.htm" target="_blank">10.3.1. Квантовая статистика Ферми-Дирака</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part10/part10.3.2.htm" target="_blank">10.3.2. Классическая статистика Максвелла-Больцмана</a></li>
-            </ul>
-        </div>
-        <h3>10.4. Концентрация носителей заряда для невырожденного и вырожденного электронного газа</h3>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part10/part10.4.1.htm" target="_blank">10.4.1. Концентрация электронов и дырок в собственном полупроводнике</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part10/part10.4.2.htm" target="_blank">10.4.2. Концентрация электронов и дырок в примесном полупроводнике</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part10/part10.4.3.htm" target="_blank">10.4.3. Концентрация электронов и дырок в разрешенных зонах для случая вырождения</a></li>
-            </ul>
-        </div>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part10/part10.5.htm" target="_blank">10.5. Энергия Ферми. Критерий вырождения электронного газа</a></li>
-            </ul>
-        </div>
-        <h3>10.6. Проводимость металлов</h3>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part10/part10.6.1.htm" target="_blank">10.6.1. Типичные свойства металлов</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part10/part10.6.2.htm" target="_blank">10.6.2. Свободные электроны и положительные атомные остатки (ионы)</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part10/part10.6.3.htm" target="_blank">10.6.3. Хаотическое и упорядоченное движение электронов</a></li>
-            </ul>
-        </div>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part10/part10.7.htm" target="_blank">10.7. Классическая теория свободных электронов Друде-Лоренца</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part10/part10.8.htm" target="_blank">10.8. Кинетическое уравнение Больцмана</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part10/part10.9.htm" target="_blank">10.9. Дифференциальный закон Ома для невырожденного электронного газа</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part10/part10.10.htm" target="_blank">10.10. Подвижность свободных носителей заряда при различных механизмах рассеяния</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part10/part10.11.htm" target="_blank">10.11. Проводимость в полупроводниках</a></li>
-            </ul>
-        </div>
-    </div>
 
-    <div class="chapter">
-        <h2>ГЛАВА 11. ОПТИЧЕСКИЕ СВОЙСТВА ТВЕРДЫХ ТЕЛ</h2>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part11/part11.1.htm" target="_blank">11.1. Взаимодействие электромагнитного излучения с твердым телом</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part11/part11.2.htm" target="_blank">11.2. Оптические характеристики металлов, диэлектриков и полупроводников</a></li>
-            </ul>
+        <div class="chapter-item">
+            <a href="Part11.html">ГЛАВА 11. ОПТИЧЕСКИЕ СВОЙСТВА ТВЕРДЫХ ТЕЛ</a>
+           
         </div>
-        <h3>11.3. Генерация и рекомбинация в полупроводниках и диэлектриках</h3>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part11/part11.3.1.htm" target="_blank">11.3.1. Излучательная рекомбинация в прямозонных и непрямозонных полупроводниках</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part11/part11.3.2.htm" target="_blank">11.3.2. Безизлучательная рекомбинация с участием глубоких примесей</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part11/part11.3.3.htm" target="_blank">11.3.3. Экситоны Френкеля и Ванье-Мотта</a></li>
-            </ul>
-        </div>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part11/part11.4.htm" target="_blank">11.4. Уравнение непрерывности</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part11/part11.5.htm" target="_blank">11.5. Электрон-фононные взаимодействия. Полярон Фрелиха</a></li>
-            </ul>
-        </div>
-    </div>
 
-    <div class="chapter">
-        <h2>ГЛАВА 12. СВЕРХПРОВОДИМОСТЬ</h2>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part12/part12.1.htm" target="_blank">12.1. Эффект Мейснера. Сверхпроводники первого и второго рода</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part12/part12.2.htm" target="_blank">12.2. Изотопический эффект</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part12/part12.3.htm" target="_blank">12.3. Элементы зонной теории сверхпроводимости Бардина-Купера-Шриффера. Куперовские пары</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part12/part12.4.htm" target="_blank">12.4. Эффекты Джозефсона</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part12/part12.5.htm" target="_blank">12.5. Высокотемпературная сверхпроводимость</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part12/part12.6.htm" target="_blank">12.6. Применение сверхпроводников</a></li>
-            </ul>
-        </div>
-    </div>
+        <div class="chapter-item">
+            <a href="Part12.html">ГЛАВА 12. СВЕРХПРОВОДИМОСТЬ</a>
+                    </div>
 
-    <div class="chapter">
-        <h2>ГЛАВА 13. РАВНОВЕСИЕ ФАЗ И ФАЗОВЫЕ ПЕРЕХОДЫ</h2>
-        <h3>13.1. Термодинамические потенциалы</h3>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part13/part13.1.1.htm" target="_blank">13.1.1. Условия фазового равновесия</a></li>
-            </ul>
+        <div class="chapter-item">
+            <a href="Part13.html">ГЛАВА 13. РАВНОВЕСИЕ ФАЗ И ФАЗОВЫЕ ПЕРЕХОДЫ</a>
+            
         </div>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part13/part13.2.htm" target="_blank">13.2. Классификация фазовых переходов</a></li>
-            </ul>
-        </div>
-        <h3>13.3. Фазовые переходы в твердом состоянии</h3>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part13/part13.3.1.htm" target="_blank">13.3.1. Кристаллизация. Теория образования зародышей</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part13/part13.3.2.htm" target="_blank">13.3.2. Роль межфазной границы при фазовых превращениях</a></li>
-            </ul>
-        </div>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part13/part13.4.htm" target="_blank">13.4. Стабильность фаз</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part13/part13.5.htm" target="_blank">13.5. Фазовые переходы металл-диэлектрик</a></li>
-            </ul>
-        </div>
-    </div>
 
-    <div class="chapter">
-        <h2>ГЛАВА 14. ПОВЕРХНОСТНЫЕ И КОНТАКТНЫЕ ЯВЛЕНИЯ В ТВЕРДЫХ ТЕЛАХ</h2>
-        <h3>14.1. Термоэлектронная эмиссия с поверхности твердых тел</h3>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part14/part14.1.1.htm" target="_blank">14.1.1. Ток термоэлектронной эмиссии в равновесных условиях</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part14/part14.1.2.htm" target="_blank">14.1.2. Термодинамическая работа выхода в полупроводниках p- и n-типов</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part14/part14.1.3.htm" target="_blank">14.1.3. Твердотельные приборы с электронно-дырочными переходами</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part14/part14.1.4.htm" target="_blank">14.1.4. Ток термоэлектронной эмиссии при наличии внешнего поля. Твердотельные катоды</a></li>
-            </ul>
-        </div>
-        <h3>14.2. Автоэлектронная эмиссия. Туннельные микроскопы</h3>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part14/part14.2.1.htm" target="_blank">14.2.1. Туннельная инжекция через треугольный барьер</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part14/part14.2.1.1.htm" target="_blank">14.2.1.1. (дополнительный материал)</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part14/part14.2.1.2.htm" target="_blank">14.2.1.2. (дополнительный материал)</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part14/part14.2.1.3.htm" target="_blank">14.2.1.3. (дополнительный материал)</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part14/part14.2.2.htm" target="_blank">14.2.2. Коэффициент прозрачности для туннелирования через треугольный барьер</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part14/part14.2.3.htm" target="_blank">14.2.3. Учет закона дисперсии E(k) при туннелировании через потенциальный барьер</a></li>
-            </ul>
-        </div>
-        <h3>14.3. Область пространственного заряда на поверхности. Твердотельные полевые приборы</h3>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part14/part14.3.1.htm" target="_blank">14.3.1. Эффект поля</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part14/part14.3.2.htm" target="_blank">14.3.2. Область пространственного заряда (ОПЗ) в равновесных условиях</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part14/part14.3.2.1.htm" target="_blank">14.3.2.1. Зонная диаграмма приповерхностной области полупроводника в равновесных условиях</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part14/part14.3.3.htm" target="_blank">14.3.3. Заряд в области пространственного заряда</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part14/part14.3.3.1.htm" target="_blank">14.3.3.1. Уравнение Пуассона для ОПЗ</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part14/part14.3.3.2.htm" target="_blank">14.3.3.2. Выражение для заряда в ОПЗ</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part14/part14.3.4.htm" target="_blank">14.3.4. Типы и устройство полевых транзисторов</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part14/part14.3.5.htm" target="_blank">14.3.5. Принцип работы МДП-транзистора</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part14/part14.3.6.htm" target="_blank">14.3.6. Дискретные МДП-фотоприемники</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/Part14/part14.3.7.htm" target="_blank">14.3.7. Матрицы фотоприемников с зарядовой связью (ФПЗС)</a></li>
-            </ul>
-        </div>
-    </div>
+        <div class="chapter-item">
+            <a href="Part14.html">ГЛАВА 14. ПОВЕРХНОСТНЫЕ И КОНТАКТНЫЕ ЯВЛЕНИЯ</a>
+                    </div>
 
-    <div class="chapter">
-        <h2>ДОПОЛНИТЕЛЬНЫЕ МАТЕРИАЛЫ</h2>
-        <div class="section">
-            <ul>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/reshzad/reshzad.htm" target="_blank">РЕШЕНИЯ ЗАДАЧ</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/osnobozn/osnobozn.htm" target="_blank">ОСНОВНЫЕ ОБОЗНАЧЕНИЯ</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/prilozh/prilozh.htm" target="_blank">ПРИЛОЖЕНИЕ А</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/prilozh/prilozhB.htm" target="_blank">ПРИЛОЖЕНИЕ Б</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/prilozh/prilozhC.htm" target="_blank">ПРИЛОЖЕНИЕ В</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/spisliter/spisliter.htm" target="_blank">СПИСОК РЕКОМЕНДОВАННОЙ ЛИТЕРАТУРЫ</a></li>
-                <li><a href="http://solidstate.karelia.ru/p/tutorial/ftt/obavtorah/obavt.htm" target="_blank">ОБ АВТОРАХ</a></li>
-            </ul>
+        <div class="chapter-item" style="border-left-color: #95a5a6;">
+            <strong style="color: #7f8c8d;">ДОПОЛНИТЕЛЬНЫЕ МАТЕРИАЛЫ</strong>
+            
         </div>
     </div>
 
